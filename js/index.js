@@ -10,6 +10,11 @@ console.clear();
 
 // --v-- write your code here --v--
 
+const booktitle = "Patch and Tweak";
+const author = "Kim Bjørn and Chris Meyer";
+const rating = "5 stars";
+const numberOfSales = 18000000;
+
 // --^-- write your code here --^--
 
 /*
@@ -26,6 +31,11 @@ Then log all variables to the console again.
 
 // --v-- write your code here --v--
 
+// console.log(booktitle);
+// console.log(author);
+// console.log(rating);
+// console.log(numberOfSales);
+
 // --^-- write your code here --^--
 
 /*
@@ -37,5 +47,14 @@ Then log all variables to the console again.
 */
 
 // --v-- write your code here --v--
+
+function logBookData() {
+  console.log(booktitle);
+  console.log(author);
+  console.log(rating);
+  console.log(numberOfSales);
+}
+
+logBookData();
 
 // --^-- write your code here --^--
